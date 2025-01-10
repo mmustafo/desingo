@@ -531,6 +531,16 @@ body{
           
 }
 
+@media screen and (max-width:500px) {
+     .eache__footer__content{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+
+     }
+}
+
 .eache__footer__content{
      margin-bottom: -8rem;
      z-index: 1;
